@@ -54,7 +54,7 @@ def startGame() -> int:
        except AssertionError:
            print('Opción incorrecta!!!')
        except ValueError:
-           print('No válodo, debes introducir un número del 1 al 3!!!')
+           print('No válido, debes introducir un número del 1 al 3!!!')
 
    return opt
 
