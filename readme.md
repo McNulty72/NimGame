@@ -12,7 +12,7 @@ Código en Python, que recrea el juego del nim.
 #### Mecánica del juego:
 
 El juego del nim consiste en ir quitando piezas de distintos montones.
-Los jugadores van retirando piezas los montones por turnos.
+Los jugadores van retirando piezas de los montones por turnos.
 
 #### Reglas del juego:
 
