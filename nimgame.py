@@ -166,11 +166,10 @@ def machinePlay(heaps: list) -> list:
     nimsum = reduce(lambda x, y: x ^ y, heaps)
     nimZero = heaps[0] ^ nimsum
     nimOne = heaps[1] ^ nimsum
-    nimTwo = heaps[2] ^ nimsum
     if nimsum:
         if nimZero < heaps[0]:
             heaps[0] -= heaps[0] - nimZero
-        elif heaps[1] ^ nimsum < heaps[1]:
+        elif nimOne < heaps[1]:
             heaps[1] -= heaps[1] - nimOne
         else:
             heaps[2] -= heaps[2] - nimTwo
